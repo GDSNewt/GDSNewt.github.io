@@ -1,0 +1,20 @@
+---
+layout: post
+title: Oh my Zsh
+date: 2020-06-08 
+---
+
+While working on tickets it has sometimes been the case that I would lose track of what git branch I was working on and I would accidentally commit changes to the wrong branch, or even worse the master branch, fortunately this doesn’t have major consequences but it can be a bit of a headache to fix. In my pairing sessions with other developers I noticed that their terminals would sometimes have UI elements telling them which branch they were on, amongst other useful pieces of information. I thought it would be a good idea to modify my terminal to emulate this. 
+
+![My Terminal before the changes](/assets/terminal_before.png)
+
+After doing some research I decided to implement zsh & oh my zsh on iterm.
+
+![Editing my ./zshrc file](/assets/zshrc.png)
+
+I changed the theme of my terminal to a cool dark one, which means i’m a proper developer, I then used vim to edit the ~/.zshrc file. In this file you can state which of the oh my zsh plugins you would like to use, there are an intimidating number of plugins located here.
+
+![My Terminal after the changes](/assets/terminal_after.png)
+
+After making these changes and picking a theme I liked I was now able to see additional information about the file structure and which branch I was on. Which will hopefully help me to avoid some of the headaches associated with git.
+
